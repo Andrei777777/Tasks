@@ -84,6 +84,4 @@ var_dump(convert_to_null(0));
 
 ?>
 
-hgtntnetntetr
-bdbdbdbdfllll
-mkkkkkjk
+

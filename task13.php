@@ -14,3 +14,4 @@ echo "length" . $length . " & width" . $width . "is" . $area ;
 calculateAreaOfrectangle();
 
 ?>
+

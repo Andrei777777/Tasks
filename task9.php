@@ -66,3 +66,4 @@ function calculate_bill($units) {
 	</div>
 </body>
 </html>
+

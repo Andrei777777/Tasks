@@ -10,3 +10,4 @@ else {
     echo "The entered number $num is zero";
 }
 ?>
+

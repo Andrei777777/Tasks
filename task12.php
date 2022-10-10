@@ -22,3 +22,4 @@ if ($age >= 18) {
 checkEligibileVote();
 
 ?>
+

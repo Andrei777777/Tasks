@@ -18,4 +18,3 @@ echo factorial(4);
 
 ?>
 
-?>

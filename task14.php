@@ -11,5 +11,3 @@ foreach (array_keys($months, $delete_item) as $key) {
 // print array to see latest values
 var_dump($months);
 ?>
-
-
