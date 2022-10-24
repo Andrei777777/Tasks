@@ -1,18 +1,17 @@
-<?php 
+<?php
 
-function getVoteEligibilityMessage(string $name, int $age): string 
+function getVoteEligibilityMessage(string $name, int $age): string
 { 
-    if(empty($name) || $age <= 0 || $age > 120){
-      return "Enter correct name and age";
-    } 
+     if (empty($name) || $age <= 0 || $age > 120) {
+        return "Enter correct name and age";
+     }
 
-   if ($age >= 18) {
-     return "{$name} you are eligibile to vote";
-   } 
+    if ($age >= 18) {
+        return "{$name} you are eligibile to vote";
+     }
       
-   return "{$name} you are not eligibile to vote";
+    return "{$name} you are not eligibile to vote";
 }
-
 
 echo getVoteEligibilityMessage('John', 22);
 echo getVoteEligibilityMessage('Valentin', 122);
