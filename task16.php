@@ -1,5 +1,5 @@
 <?php
-$str = "Tutorials Class";
-echo strrev($str);
-?>
 
+$string = "Tutorials Class";
+
+echo strrev($string);

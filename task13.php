@@ -1,17 +1,10 @@
-
-
-
-
 <?php
 
-function calculateAreaOfRectangle ($length = 2, $width = 4) {
+function calculateAreaOfRectangle(float $length = 2, float $width = 4): void
+{
+    $area = $length * $width;
 
-$area = $length * $width;
-
-echo "length" . $length . " & width" . $width . "is" . $area ;
-
+    echo "length {$length} & width {$width} is {$area}";
 }
+
 calculateAreaOfrectangle();
-
-?>
-

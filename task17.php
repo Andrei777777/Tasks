@@ -1,5 +1,7 @@
 <?php
-$str = "Tutorials Class";
-echo strlen($str);
-?>
+
+$className = "Tutorials Class";
+
+echo strlen($className);
+
 

@@ -1,13 +1,22 @@
 <?php
-$num = readline("Enter the number to be checked: \n");
-if (!is_numeric($num))
-    echo "Enter a valid number";
-elseif ($num > 0)
-    echo "The entered number $num is positive";
-elseif ($num < 0)
-    echo "The entered number $num is negative";
-else {
-    echo "The entered number $num is zero";
-}
-?>
 
+function getNumberType(float $number): string
+{
+    if ($number > 0) {
+        return "The entered number {$number} is positive";
+    }
+
+    if ($number < 0) {
+        return "The entered number {$number} is negative";
+    }
+
+    return "The entered number {$number} is zero";
+}
+
+$number = readline("Enter the number to be checked: \n");
+
+if (!is_numeric($number)) {
+    die('Invalid Number');
+}
+
+echo getNumberType($number);
