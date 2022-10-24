@@ -1,6 +1,5 @@
 <?php 
 
-//task12//
 function getVoteEligibilityMessage(string $name, int $age): string 
 { 
     if(empty($name) || $age <= 0 || $age > 120){
@@ -19,6 +18,3 @@ echo getVoteEligibilityMessage('John', 22);
 echo getVoteEligibilityMessage('Valentin', 122);
 echo getVoteEligibilityMessage('Michael', -1);
 echo getVoteEligibilityMessage('Lena', 18);
-
-?>
-
