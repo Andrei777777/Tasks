@@ -1,9 +1,7 @@
 <?php
 
 if (isset($_POST['submit'])) {
-    
     if (!empty($_POST['check_list'])) {
-
         $checkedCount = count($_POST['check_list']);
         $name = $_POST['username'];
         echo "{$name}  's favourite colors are  {$checkedCount}  option(s): <br/>";
@@ -15,4 +13,3 @@ if (isset($_POST['submit'])) {
         echo "<b>Please Select Atleast One Option.</b>";
     }
 }
-

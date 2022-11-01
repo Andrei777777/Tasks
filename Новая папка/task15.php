@@ -1,4 +1,5 @@
 <?php
+
 $num = readline("Enter the number to be checked: \n");
 if (!is_numeric($num)) {
     echo "Enter a valid number";
@@ -9,5 +10,6 @@ if (!is_numeric($num)) {
 } else {
     echo "The entered number $num is zero";
 }
-?>
+
+
 

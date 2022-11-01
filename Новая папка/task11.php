@@ -2,42 +2,38 @@
 
 
 
-<?php 
+<?php
 
 $Number1 = $_POST["Number1"];
 $Number2 = $_POST["Number2"];
 $operator = $_POST["operator"];
 $result = '';
-if  (is_numeric($Number1) && is_numeric($Number2)) {
-
-      switch ($operator) {
-
-          case "Addition" :
+if (is_numeric($Number1) && is_numeric($Number2)) {
+    switch ($operator) {
+        case "Addition":
 
             $result = $Number1 + $Number2;
 
             break;
 
-          case "Substraction" : 
-            
+        case "Substraction":
+
             $result = $Number1 - $Number2;
 
             break;
 
-          case "Multilication" :
-            
+        case "Multilication":
+
             $result = $Number1 * $Number2;
 
             break;
 
-          case "Division" :
-            
+        case "Division":
+
             $result = $Number1 / $Number2;
 
             break;
-
-      }
-
+    }
 }
 
 ?>

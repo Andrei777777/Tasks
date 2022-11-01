@@ -1,8 +1,8 @@
 
 
 <?php
-//Task4
-$day1 = 'Manday'; 
+
+$day1 = 'Manday';
 
 $day2 = 'Tuesday';
 
@@ -18,53 +18,51 @@ $day7 = 'Sunday';
 
 
 switch (2) {
+    case 1:
 
-     case 1:
+        echo 'Manday';
 
-          echo 'Manday';
-          
-          break;
+        break;
 
-     case 2:
-     
-           echo 'Tuesday';
+    case 2:
 
-           break;
+        echo 'Tuesday';
 
-     case 3:
-     
-           echo 'Wednesday';
-      
-           break;
+        break;
 
-     case 4:
-     
-           echo 'Thursday';
+    case 3:
 
-           break;
+        echo 'Wednesday';
 
-     case 5:
-     
-           echo 'Friday';
+        break;
 
-           break;
+    case 4:
 
-     case 6:
-     
-           echo 'Saturday';
+        echo 'Thursday';
 
-           break;
+        break;
 
-     case 7:
-     
-           echo 'Sanday';
+    case 5:
 
-           break;
+        echo 'Friday';
 
-     default :
-     
-           echo 'default';
-           
+        break;
+
+    case 6:
+
+        echo 'Saturday';
+
+        break;
+
+    case 7:
+
+        echo 'Sanday';
+
+        break;
+
+    default:
+
+        echo 'default';
 }
 
 ?>

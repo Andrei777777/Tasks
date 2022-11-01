@@ -10,32 +10,22 @@ $c = 40;
 
 $d = 20;
 
-if($a >= 60) {
-
+if ($a >= 60) {
     echo 'First Devision' . '<br>';
-
 } else {
-
     echo 'Second devision';
-
 }
 
-if($b >= 43 && $b = 59) {
-
+if ($b >= 43 && $b = 59) {
     echo 'Second Devision' . '<br>';
-
 }
 
-if($c >= 33 && $c = 44) {
-
+if ($c >= 33 && $c = 44) {
     echo 'Third Devision' . '<br>';
-
 }
 
-if($d < 33) {
-
+if ($d < 33) {
     echo 'Fail' . '<br>';
-
 }
 
 ?>
